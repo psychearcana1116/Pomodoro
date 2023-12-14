@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.Login_DB"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="32" />
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\c9c908412e3287debc270deb389e7c77\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\c9c908412e3287debc270deb389e7c77\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\c9c908412e3287debc270deb389e7c77\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\c9c908412e3287debc270deb389e7c77\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:4:5-32:19
+17        android:allowBackup="true"
+17-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:5:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\Ruth\.gradle\caches\transforms-3\eaf7ce99ad201a1ce03880436ba357b9\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:6:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:7:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:8:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:9:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Login_DB" >
+26-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:10:9-46
+27        <activity
+27-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:11:9-13:40
+28            android:name="com.example.Login_DB.Navigation"
+28-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:12:13-39
+29            android:exported="false" />
+29-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:13:13-37
+30        <activity
+30-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:14:9-16:40
+31            android:name="com.example.Login_DB.welcome_window"
+31-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:15:13-43
+32            android:exported="false" />
+32-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:16:13-37
+33        <activity
+33-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:17:9-19:40
+34            android:name="com.example.Login_DB.MainActivity"
+34-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:18:13-41
+35            android:exported="false" />
+35-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:19:13-37
+36        <activity
+36-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:20:9-28:20
+37            android:name="com.example.Login_DB.login_form"
+37-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:21:13-39
+38            android:exported="true" >
+38-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:22:13-36
+39            <intent-filter>
+39-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:23:13-27:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:24:17-69
+40-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:24:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:26:17-77
+42-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:26:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:29:9-31:48
+46            android:name="com.example.Login_DB.Pomodoro_timer"
+46-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:30:13-43
+47            android:exported="true" />
+47-->C:\Users\Ruth\Desktop\Pomodoro\app\src\main\AndroidManifest.xml:31:13-36
+48
+49        <service
+49-->[com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\bb351f732870ab40d5f0ed838951332a\transformed\firebase-database-ktx-20.0.5\AndroidManifest.xml:12:9-18:19
+50            android:name="com.google.firebase.components.ComponentDiscoveryService"
+50-->[com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\bb351f732870ab40d5f0ed838951332a\transformed\firebase-database-ktx-20.0.5\AndroidManifest.xml:13:13-84
+51            android:directBootAware="true"
+51-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\9c36c268f1600bb8a67522f35d4030a6\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+52            android:exported="false" >
+52-->[com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\bb351f732870ab40d5f0ed838951332a\transformed\firebase-database-ktx-20.0.5\AndroidManifest.xml:14:13-37
+53            <meta-data
+53-->[com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\bb351f732870ab40d5f0ed838951332a\transformed\firebase-database-ktx-20.0.5\AndroidManifest.xml:15:13-17:85
+54                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+54-->[com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\bb351f732870ab40d5f0ed838951332a\transformed\firebase-database-ktx-20.0.5\AndroidManifest.xml:16:17-124
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\bb351f732870ab40d5f0ed838951332a\transformed\firebase-database-ktx-20.0.5\AndroidManifest.xml:17:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-common-ktx:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\e819b6d243f99050515c5f1216b574f9\transformed\firebase-common-ktx-20.1.1\AndroidManifest.xml:15:13-17:85
+57                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+57-->[com.google.firebase:firebase-common-ktx:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\e819b6d243f99050515c5f1216b574f9\transformed\firebase-common-ktx-20.1.1\AndroidManifest.xml:16:17-113
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-common-ktx:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\e819b6d243f99050515c5f1216b574f9\transformed\firebase-common-ktx-20.1.1\AndroidManifest.xml:17:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\c9c908412e3287debc270deb389e7c77\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+60                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+60-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\c9c908412e3287debc270deb389e7c77\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Ruth\.gradle\caches\transforms-3\c9c908412e3287debc270deb389e7c77\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+62        </service>
+63
+64        <provider
+64-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\9c36c268f1600bb8a67522f35d4030a6\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+65            android:name="com.google.firebase.provider.FirebaseInitProvider"
+65-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\9c36c268f1600bb8a67522f35d4030a6\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+66            android:authorities="com.example.Login_DB.firebaseinitprovider"
+66-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\9c36c268f1600bb8a67522f35d4030a6\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+67            android:directBootAware="true"
+67-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\9c36c268f1600bb8a67522f35d4030a6\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+68            android:exported="false"
+68-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\9c36c268f1600bb8a67522f35d4030a6\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+69            android:initOrder="100" />
+69-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Ruth\.gradle\caches\transforms-3\9c36c268f1600bb8a67522f35d4030a6\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ruth\.gradle\caches\transforms-3\642982653088cd45f2be96c9ba515e3c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ruth\.gradle\caches\transforms-3\642982653088cd45f2be96c9ba515e3c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ruth\.gradle\caches\transforms-3\642982653088cd45f2be96c9ba515e3c\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ruth\.gradle\caches\transforms-3\642982653088cd45f2be96c9ba515e3c\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\baa5148b04bf32fafecf439b29b34daa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\baa5148b04bf32fafecf439b29b34daa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\baa5148b04bf32fafecf439b29b34daa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+79
+80        <provider
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\c24d79d14bc32bbb1f282849e1a66120\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+81            android:name="androidx.startup.InitializationProvider"
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\c24d79d14bc32bbb1f282849e1a66120\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+82            android:authorities="com.example.Login_DB.androidx-startup"
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\c24d79d14bc32bbb1f282849e1a66120\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+83            android:exported="false" >
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\c24d79d14bc32bbb1f282849e1a66120\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+84            <meta-data
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\c24d79d14bc32bbb1f282849e1a66120\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\c24d79d14bc32bbb1f282849e1a66120\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+86                android:value="androidx.startup" />
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ruth\.gradle\caches\transforms-3\c24d79d14bc32bbb1f282849e1a66120\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+87            <meta-data
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ruth\.gradle\caches\transforms-3\dd64134fc838a8ed31f28ec9883c7882\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ruth\.gradle\caches\transforms-3\dd64134fc838a8ed31f28ec9883c7882\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+89                android:value="androidx.startup" />
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ruth\.gradle\caches\transforms-3\dd64134fc838a8ed31f28ec9883c7882\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+90        </provider>
+91    </application>
+92
+93</manifest>

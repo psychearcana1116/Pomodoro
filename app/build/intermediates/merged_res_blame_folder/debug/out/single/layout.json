@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-mergeDebugResources-27:\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-main-30:\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-mergeDebugResources-27:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-mergeDebugResources-27:\\layout\\activity_welcome_window.xml",
+        "source": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-main-30:\\layout\\activity_welcome_window.xml"
+    },
+    {
+        "merged": "com.example.Login_DB.app-mergeDebugResources-27:/layout/activity_navigation.xml",
+        "source": "com.example.Login_DB.app-main-30:/layout/activity_navigation.xml"
+    },
+    {
+        "merged": "com.example.Login_DB.app-mergeDebugResources-27:/layout/nav_header.xml",
+        "source": "com.example.Login_DB.app-main-30:/layout/nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-mergeDebugResources-27:\\layout\\activity_login_form.xml",
+        "source": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-main-30:\\layout\\activity_login_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-mergeDebugResources-27:\\layout\\timer_pomodoro.xml",
+        "source": "C:\\Users\\Ruth\\.gradle\\daemon\\8.0\\com.example.Login_DB.app-main-30:\\layout\\timer_pomodoro.xml"
+    }
+]

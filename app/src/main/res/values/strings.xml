@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name"> Pomodo-it</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

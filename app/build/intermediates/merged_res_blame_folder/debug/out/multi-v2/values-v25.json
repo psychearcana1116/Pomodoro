@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.Login_DB.app-mergeDebugResources-26:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ruth\\.gradle\\caches\\transforms-3\\88aae541f6db23cd1915564a9491e323\\transformed\\appcompat-1.4.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}
