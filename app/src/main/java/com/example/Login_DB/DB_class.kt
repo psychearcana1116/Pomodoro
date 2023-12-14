@@ -28,4 +28,20 @@ class DB_class(context: Context): SQLiteOpenHelper(context,DATABASE_NAME,null,DA
         onCreate(db)
     }
 
+    // Inside DB_class
+    fun getFirstName(username: String): String {
+        val db = this.readableDatabase
+        val query = "SELECT $KEY_NAME FROM $TABLE_CONTACTS WHERE $KEY_UNAME = ?"
+        val cursor = db.rawQuery(query, arrayOf(username))
+
+        var firstName = ""
+        if (cursor.moveToFirst()) {
+            firstName = cursor.getString(cursor.getColumnIndex(KEY_NAME))
+        }
+
+        cursor.close()
+        db.close()
+        return firstName
+    }
+
 }

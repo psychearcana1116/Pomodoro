@@ -9,13 +9,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login_DB">
         <activity
-            android:name="com.example.Login_DB.welcome_window"
+            android:name=".Pomodoro_timer"
             android:exported="false" />
         <activity
-            android:name="com.example.Login_DB.MainActivity"
+            android:name=".welcome_window"
             android:exported="false" />
         <activity
-            android:name="com.example.Login_DB.login_form"
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Navigation"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFragment"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsFragment"
+            android:exported="false" />
+        <activity
+            android:name=".login_form"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

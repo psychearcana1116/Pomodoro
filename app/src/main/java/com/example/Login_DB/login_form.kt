@@ -1,10 +1,12 @@
 package com.example.Login_DB
 
+import HomeFragment
 import android.content.Intent
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.Login_DB.databinding.ActivityLoginFormBinding
+
 
 class login_form : AppCompatActivity() {
     private lateinit var bind: ActivityLoginFormBinding
@@ -32,7 +34,7 @@ class login_form : AppCompatActivity() {
                     val lastname = rs.getString(rs.getColumnIndex("lastname"))
                     val email = rs.getString(rs.getColumnIndex("email"))
 
-                    val intent = Intent(this, welcome_window::class.java)
+                    val intent = Intent(this, HomeFragment::class.java)
                     intent.putExtra("uname", name)  // Use "uname" instead of "username"
                     intent.putExtra("email", email)
                     intent.putExtra("lastname", lastname)
@@ -46,7 +48,8 @@ class login_form : AppCompatActivity() {
         }
 
         bind.regisLink.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Navigation::class.java)
+            // val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }
